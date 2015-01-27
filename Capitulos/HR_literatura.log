@@ -1,0 +1,457 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.17)  21 SEP 2014 10:55
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**HR_literatura.tex
+(./HR_literatura.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \noindent
+              \ref{lit-1}. C\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<write> ...ng: Reference `lit-1' on page \thepage 
+                                                  \space undefined\on@line .
+l.1 \noindent \ref{lit-1}
+                         . C\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-1' on page  undefined on input line 1.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ...ng: Reference `lit-2' on page \thepage 
+                                                  \space undefined\on@line .
+l.2 \ref{lit-2}
+               . A\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-2' on page  undefined on input line 2.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+! Undefined control sequence.
+<write> ...ng: Reference `lit-3' on page \thepage 
+                                                  \space undefined\on@line .
+l.3 \ref{lit-3}
+               . B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-3' on page  undefined on input line 3.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...ng: Reference `lit-4' on page \thepage 
+                                                  \space undefined\on@line .
+l.4 \ref{lit-4}
+               . A\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-4' on page  undefined on input line 4.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+! Undefined control sequence.
+<write> ...ng: Reference `lit-5' on page \thepage 
+                                                  \space undefined\on@line .
+l.5 \ref{lit-5}
+               . B \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-5' on page  undefined on input line 5.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...ng: Reference `lit-6' on page \thepage 
+                                                  \space undefined\on@line .
+l.6 \ref{lit-6}
+               . B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-6' on page  undefined on input line 6.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...ng: Reference `lit-7' on page \thepage 
+                                                  \space undefined\on@line .
+l.7 \ref{lit-7}
+               . C\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-7' on page  undefined on input line 7.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ...ng: Reference `lit-8' on page \thepage 
+                                                  \space undefined\on@line .
+l.8 \ref{lit-8}
+               . D\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-8' on page  undefined on input line 8.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+<write> ...ng: Reference `lit-9' on page \thepage 
+                                                  \space undefined\on@line .
+l.9 \ref{lit-9}
+               . A \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-9' on page  undefined on input line 9.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+! Undefined control sequence.
+<write> ...g: Reference `lit-10' on page \thepage 
+                                                  \space undefined\on@line .
+l.10 \ref{lit-10}
+                 . B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-10' on page  undefined on input line 10.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...g: Reference `lit-11' on page \thepage 
+                                                  \space undefined\on@line .
+l.11 \ref{lit-11}
+                 . A\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-11' on page  undefined on input line 11.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+! Undefined control sequence.
+<write> ...g: Reference `lit-12' on page \thepage 
+                                                  \space undefined\on@line .
+l.12 \ref{lit-12}
+                 . D\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-12' on page  undefined on input line 12.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+<write> ...g: Reference `lit-13' on page \thepage 
+                                                  \space undefined\on@line .
+l.13 \ref{lit-13}
+                 . B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-13' on page  undefined on input line 13.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...g: Reference `lit-14' on page \thepage 
+                                                  \space undefined\on@line .
+l.14 \ref{lit-14}
+                 . C\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-14' on page  undefined on input line 14.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ...g: Reference `lit-15' on page \thepage 
+                                                  \space undefined\on@line .
+l.15 \ref{lit-15}
+                 . B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-15' on page  undefined on input line 15.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...g: Reference `lit-16' on page \thepage 
+                                                  \space undefined\on@line .
+l.16 \ref{lit-16}
+                 . D\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-16' on page  undefined on input line 16.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+<write> ...g: Reference `lit-17' on page \thepage 
+                                                  \space undefined\on@line .
+l.17 \ref{lit-17}
+                 . C\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-17' on page  undefined on input line 17.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ...g: Reference `lit-18' on page \thepage 
+                                                  \space undefined\on@line .
+l.18 \ref{lit-18}
+                 . A\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-18' on page  undefined on input line 18.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+! Undefined control sequence.
+<write> ...g: Reference `lit-19' on page \thepage 
+                                                  \space undefined\on@line .
+l.19 \ref{lit-19}
+                 . D\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-19' on page  undefined on input line 19.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+<write> ...g: Reference `lit-20' on page \thepage 
+                                                  \space undefined\on@line .
+l.20 \ref{lit-20}
+                 . D\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `lit-20' on page  undefined on input line 20.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no D in font nullfont!
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--21
+[] 
+ []
+
+)
+! Emergency stop.
+<*> HR_literatura.tex
+                     
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 28 strings out of 495061
+ 333 string characters out of 1182620
+ 46108 words of memory out of 3000000
+ 3304 multiletter control sequences out of 15000+50000
+ 3948 words of font info for 15 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 19i,2n,19p,62b,89s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

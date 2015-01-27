@@ -1,0 +1,834 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.21)  26 JAN 2015 16:30
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**HR_math_yolanda.tex
+(./HR_math_yolanda.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \noindent
+              \ref{yolma-1} D\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<write> ...: Reference `yolma-1' on page \thepage 
+                                                  \space undefined\on@line .
+l.5 \noindent \ref{yolma-1}
+                            D\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-1' on page  undefined on input line 5.
+
+Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+<write> ...: Reference `yolma-2' on page \thepage 
+                                                  \space undefined\on@line .
+l.6 \ref{yolma-2}
+                  D\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-2' on page  undefined on input line 6.
+
+Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+<write> ...: Reference `yolma-3' on page \thepage 
+                                                  \space undefined\on@line .
+l.7 \ref{yolma-3}
+                  A\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-3' on page  undefined on input line 7.
+
+Missing character: There is no A in font nullfont!
+! Undefined control sequence.
+<write> ...: Reference `yolma-4' on page \thepage 
+                                                  \space undefined\on@line .
+l.8 \ref{yolma-4}
+                  B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-4' on page  undefined on input line 8.
+
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...: Reference `yolma-5' on page \thepage 
+                                                  \space undefined\on@line .
+l.9 \ref{yolma-5}
+                  A\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-5' on page  undefined on input line 9.
+
+Missing character: There is no A in font nullfont!
+! Undefined control sequence.
+<write> ...: Reference `yolma-6' on page \thepage 
+                                                  \space undefined\on@line .
+l.10 \ref{yolma-6}
+                   D\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-6' on page  undefined on input line 10.
+
+Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+<write> ...: Reference `yolma-7' on page \thepage 
+                                                  \space undefined\on@line .
+l.11 \ref{yolma-7}
+                   D\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-7' on page  undefined on input line 11.
+
+Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+<write> ...: Reference `yolma-8' on page \thepage 
+                                                  \space undefined\on@line .
+l.12 \ref{yolma-8}
+                   C\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-8' on page  undefined on input line 12.
+
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ...: Reference `yolma-9' on page \thepage 
+                                                  \space undefined\on@line .
+l.13 \ref{yolma-9}
+                   B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-9' on page  undefined on input line 13.
+
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-10' on page \thepage 
+                                                  \space undefined\on@line .
+l.14 \ref{yolma-10}
+                    C\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-10' on page  undefined on input line 14.
+
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-11' on page \thepage 
+                                                  \space undefined\on@line .
+l.15 \ref{yolma-11}
+                    B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-11' on page  undefined on input line 15.
+
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-12' on page \thepage 
+                                                  \space undefined\on@line .
+l.16 \ref{yolma-12}
+                    A\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-12' on page  undefined on input line 16.
+
+Missing character: There is no A in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-13' on page \thepage 
+                                                  \space undefined\on@line .
+l.17 \ref{yolma-13}
+                    Los n√∫meros que dividen exactamente a otro.\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-13' on page  undefined on input line 17.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ∫ in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-14' on page \thepage 
+                                                  \space undefined\on@line .
+l.18 \ref{yolma-14}
+                    D\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-14' on page  undefined on input line 18.
+
+Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-15' on page \thepage 
+                                                  \space undefined\on@line .
+l.19 \ref{yolma-15}
+                    D\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-15' on page  undefined on input line 19.
+
+Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-16' on page \thepage 
+                                                  \space undefined\on@line .
+l.20 \ref{yolma-16}
+                    D\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-16' on page  undefined on input line 20.
+
+Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-17' on page \thepage 
+                                                  \space undefined\on@line .
+l.21 \ref{yolma-17}
+                    Entre los lados de un tri√°ngulo rect√°ngulo.\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-17' on page  undefined on input line 21.
+
+Missing character: There is no E in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ° in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ° in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-18' on page \thepage 
+                                                  \space undefined\on@line .
+l.22 \ref{yolma-18}
+                    C\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-18' on page  undefined on input line 22.
+
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-19' on page \thepage 
+                                                  \space undefined\on@line .
+l.23 \ref{yolma-19}
+                    Cantidad de espacio ocupado por un cuerpo.\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-19' on page  undefined on input line 23.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-20' on page \thepage 
+                                                  \space undefined\on@line .
+l.24 \ref{yolma-20}
+                    B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-20' on page  undefined on input line 24.
+
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-21' on page \thepage 
+                                                  \space undefined\on@line .
+l.25 \ref{yolma-21}
+                    A\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-21' on page  undefined on input line 25.
+
+Missing character: There is no A in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-22' on page \thepage 
+                                                  \space undefined\on@line .
+l.26 \ref{yolma-22}
+                    C\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-22' on page  undefined on input line 26.
+
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-23' on page \thepage 
+                                                  \space undefined\on@line .
+l.27 \ref{yolma-23}
+                    Es la relaci√≥n en que est√°n los n√∫meros que expresan ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-23' on page  undefined on input line 27.
+
+Missing character: There is no E in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ≥ in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ° in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ∫ in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no - in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-24' on page \thepage 
+                                                  \space undefined\on@line .
+l.28 \ref{yolma-24}
+                    A\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-24' on page  undefined on input line 28.
+
+Missing character: There is no A in font nullfont!
+! Undefined control sequence.
+<write> ... Reference `yolma-25' on page \thepage 
+                                                  \space undefined\on@line .
+l.29 \ref{yolma-25}
+                    Parte de las matem√°ticas que estudia la soluci√≥n de tr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `yolma-25' on page  undefined on input line 29.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ° in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ≥ in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ° in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ° in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[] 
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--30
+[]
+ []
+
+)
+! Emergency stop.
+<*> HR_math_yolanda.tex
+                       
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 33 strings out of 493304
+ 431 string characters out of 6139871
+ 52880 words of memory out of 5000000
+ 3591 multiletter control sequences out of 15000+600000
+ 3948 words of font info for 15 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 19i,2n,19p,207b,89s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

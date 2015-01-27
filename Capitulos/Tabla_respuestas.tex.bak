@@ -1,0 +1,344 @@
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                 Settings                           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\usepackage[spanish]{babel}
+\newcommand{\thesistitle}{Pruebas preparatorias ICFES 2014}
+\newcommand{\thesisauthor}{Personal Teaching}
+\newcommand{\thesisyear}{2014}
+
+%% Either of these is allowed by the university guidelines.  Only
+%% affects the main document text
+\newcommand{\docspacing}{\onehalfspacing}
+%\newcommand{\docspacing}{\doublespacing}
+
+% Page Layout, the twoside variant is for printing on both sides of
+% the paper (allowed by the guidelines)
+\documentclass[openany,12pt]{report}
+%\documentclass[12pt]{report}
+\newcommand{\imagesize}{0.8}
+
+%%% The university guidelines state a 40mm edge and 15mm minimum
+%%% We have a 20mm side margin, plus a 20mm binding edge indent
+\newlength{\bindingedgeindent}\setlength{\bindingedgeindent}{20mm}
+\newlength{\sideMargin}\setlength{\sideMargin}{20mm}
+\newlength{\topMargin}\setlength{\topMargin}{20mm}
+\newlength{\bottomMargin}\setlength{\bottomMargin}{20mm}
+
+%%% The inserted pdfs of papers can be offset slightly, to give the
+%%% binding edge a wider margin
+%\newcommand{\includepaper}[2][]{\includepdf[offset=7.5mm 0,#1]{#2}}
+\newcommand{\includepaper}[2][]{\includepdf[#1]{#2}}
+\usepackage{natbib}
+\usepackage[Bjarne]{fncychap} %% Chapter style
+\usepackage[nottoc,numbib]{tocbibind}
+%\usepackage{aas_macros}
+%\usepackage[style=numeric-comp,bibstyle=numeric,hyperref=true,%
+%backref=false,refsection=chapter,sorting=none,abbreviate=true]{biblatex}
+%\usepackage[style=numeric-comp,bibstyle=numeric,hyperref=true,%
+%backref=false,refsection=chapter,sorting=none,abbreviate=true]{biblatex}
+%\bibliography{Bsebas}%%%% the bibtex file
+%\nocite{*}
+%\bibliographystyle{spr-mp-sola}
+%\usepackage{biblatex}
+
+%%Now define a style for the bibliographic sections for each chapter
+%\defbibheading{thesisChapterBib}{\phantomsection\addcontentsline{toc}{section}{References}\section*{References}}
+%\defbibheading{thesisChapterBib}{\section{References}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                 Implementation                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[letterpaper,bindingoffset=\bindingedgeindent,%
+hdivide={\sideMargin,*,\sideMargin},%
+vdivide={\topMargin,*,\bottomMargin}]{geometry}
+\usepackage{lgrind}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Text Formatting
+\usepackage[T1]{fontenc} %Better fonts
+\usepackage{indentfirst} %indent first line of sections
+\usepackage{pdfpages} %% Allows insertion of pdfs as pages
+\usepackage{setspace} % Document spacing
+\usepackage{times}
+\usepackage{lscape}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Header/Footer Format
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RO]{\slshape \rightmark}
+\fancyhead[LE]{\slshape \leftmark}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\addtolength{\headheight}{2.5pt}
+\usepackage[bottom,perpage]{footmisc} %% Footnotes at bottom of page
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Table Formatting
+\usepackage{pict2e}   %% Improves latex picture package for slashbox
+\usepackage{slashbox} %% Allow backslashbox in tables
+\usepackage{multirow} %% Allows multiple row items in tables
+\usepackage{pdfpages}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          Comment Environment
+\usepackage{verbatim}
+\usepackage{color,framed}
+\definecolor{shadecolor}{gray}{0.75}
+\usepackage{enumerate}
+\renewenvironment{comment}
+{% replaces \begin{comment}
+  % \color{blue}
+  \begin{shaded}\nopagebreak
+    \emph{\textbf{Comment:}}\nopagebreak
+  }
+  {% replaces \end{comment}
+    % 
+    \end{shaded}%
+  \par\medskip\normalcolor%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%         Math Fonts and Environments
+\usepackage{amsmath,bm}
+\usepackage{amscd,amsfonts,mathrsfs,amsthm,amssymb}
+
+%Tildes
+%\usepackage[utf8]{inputenc}
+%\usepackage[spanish]{babel}
+%\usepackage{aas_macros}
+%Make equations numbered by section
+\numberwithin{equation}{section}
+
+% My math formatting commands, this bolds most things
+\newcommand{\vect}[1]{\ensuremath{\bm{{\rm #1}}}}
+\DeclareMathOperator{\Tr}{Tr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          Image manipulation
+\usepackage{graphicx}
+\usepackage{textpos}           %for the cover image
+\setlength{\TPHorizModule}{1mm}%sets the textpos unit
+\setlength{\TPVertModule}{\TPHorizModule} 
+\usepackage{subfig}     %for multi image file floats
+%%%%%%%% This command lets figures fill 85 percent of the top of a
+%%%%%%%% page without placing it on its own
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\textfraction}{0.1}
+%%%%%%%% Makes sure a page with 75
+\renewcommand{\floatpagefraction}{0.75}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%         Keep floats in their chapter
+%%         And make left pages completely blank
+
+%%%% This makes clear double page not print headers or footers
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+\hbox{}
+\vspace{\fill}
+\thispagestyle{plain}
+\newpage
+\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+\usepackage{placeins}
+\let\oldchap=\chapter
+\renewcommand*{\chapter}{%
+  \secdef{\Chap}{\ChapS}% whether there's a star or not...
+}
+\newcommand\ChapS[1]{\FloatBarrier\singlespacing\cleardoublepage\oldchap*{{\uppercase{#1}}}\markboth{{\uppercase{#1}}}{{\uppercase{#1}}}\docspacing}
+\newcommand\Chap[2][]{\FloatBarrier\singlespacing\cleardoublepage\oldchap[#1]{{\uppercase{#2}}}\docspacing}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%         Epigraphs for stating where chapters were from
+\usepackage{epigraph}
+\setlength{\epigraphwidth}{0.9\columnwidth}
+\setlength{\epigraphrule}{0pt}
+\setlength{\beforeepigraphskip}{-\baselineskip}
+\setlength{\afterepigraphskip}{\baselineskip}
+\renewcommand{\textflush}{flushright}
+\renewcommand{\epigraphsize}{\footnotesize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%             Nomenclature
+\usepackage[refpage]{nomencl} %My version of the Nomencl package
+\setlength{\nomitemsep}{-\parsep} %single line spacing nomencl
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%          PDFLatex Extras
+
+
+\usepackage{ifpdf}
+\ifpdf
+\definecolor{Navy}{rgb}{0.1,0.1,0.45}
+\usepackage[pdftex,%
+pdftitle={\thesistitle},
+plainpages=false,
+pdfpagelabels,
+hypertexnames=true,
+naturalnames,
+%pdfauthor={\thesisauthor},
+pdfsubject={Honors Thesis},
+%pdfkeywords={\thesispdfkeywords},
+pdfproducer={Latex},
+pdfcreator={pdflatex},
+bookmarks,bookmarksnumbered,
+pagebackref,
+colorlinks,
+linkcolor=black,
+citecolor=black,
+filecolor=black,
+urlcolor=black,
+breaklinks=true
+]{hyperref}
+\else
+\fi
+%\usepackage[usenames,dvipsnames]{color}
+%\definecolor{Sepia}{rgb}{0.56,0.46,0.28}
+%\hypersetup{colorlinks=true,citecolor=blue,linkcolor=Sepia,urlcolor=Navy}
+%%% Makes page numbers, hyperlinked
+\renewcommand*{\pagedeclaration}[1]{\unskip, \hyperpage{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Fix the colours of transparent images
+\pdfpageattr {/Group << /S /Transparency /I true /CS /DeviceRGB>>}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Make it look like a book in acroread
+\pdfcatalog{/PageLayout /TwoPageRight}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Command to collect nomenclature data
+\makenomenclature
+%TO produce caption outside figures and produce the fluz diagram
+  \usepackage{tikz} 
+  \usepackage{caption}
+\usepackage{fancyvrb}
+\usepackage{layout}
+\usepackage{wrapfig}
+\usepackage{eso-pic}
+\usepackage{wallpaper}
+\usepackage{anyfontsize}
+\usepackage{color}
+
+\usepackage{rotating}
+\usepackage{tikz}
+\usepackage{array}
+\definecolor{light-gray}{gray}{0.01}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                 Document Front Matter              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+\newcommand\BackgroundPicture{%
+   \put(0,0){%
+     \parbox[b][\paperheight]{\paperwidth}{%
+       \vfill
+       \centering
+       \begin{turn}{55}
+{\fontsize{70}{60}\selectfont {\color{gray}PERSONAL TEACHING}}
+\end{turn}
+      % \includegraphics[width=\paperwidth, keepaspectratio]{figures/hireslogo}%
+       \vfill
+     }}}
+\AddToShipoutPicture{\BackgroundPicture}
+%%%% the bibtex file
+
+\newcommand*\mycirc[1]{%
+  \begin{tikzpicture}
+    \node[draw,circle,inner sep=1pt,minimum width=.5cm]  (bigc) {#1};
+  \end{tikzpicture}}
+%\mycirc{N}
+%\mycirc{F}
+
+\section*{
+{\fontsize{40}{60}\selectfont Hoja de Respuestas}}
+\renewcommand{\arraystretch}{2.}
+
+
+\begin{center}
+\begin{tabular}[t]{|c|c|c|c|c|c|c|c|}
+\cline{1-2}\cline{4-5}\cline{7-8}
+Pregunta & Respuesta & &Pregunta & Respuesta && Pregunta & Respuesta \\ 
+\cline{1-2}\cline{4-5}\cline{7-8}
+1. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 21. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 41 & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+2. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 22. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 42. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+3.  & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 23. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 43. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+4.   & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 24. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 44. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+ 5.   & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 25. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 45. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+6.     & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 26. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 46. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+7.      & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 27. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 47. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+  8.     & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 28. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 48. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+9.    & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 29. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 49. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+10.   & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 30. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 50. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+11.  & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 31. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 51. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+12.   & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 32. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 52. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+13.  & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 33. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 53. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+ 14. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 34. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 54. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+15. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 35. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 55. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+16.  & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 36. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 56. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+17.   & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 37. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 57. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+ 18.   & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 38. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 58. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+ 19.    & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 39. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 59. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+  20.    & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 40. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 60. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+\cline{1-2}\cline{4-5}\cline{7-8}
+\end{tabular} 
+\end{center}
+\newpage
+\begin{center}
+\begin{tabular}[t]{|c|c|c|c|c|c|c|c|}
+\cline{1-2}\cline{4-5}\cline{7-8}
+Pregunta & Respuesta & &Pregunta & Respuesta && Pregunta & Respuesta \\ 
+\cline{1-2}\cline{4-5}\cline{7-8}
+61. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 81. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 101 & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+62. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 82. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 102. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+63.  & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 83. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 103. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+64.   & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 84. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 104. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+65.   & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 85. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 105. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+66.     & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 86. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 106. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+67.      & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 87. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 107. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+68.     & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 88. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 108. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+69.    & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 89. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 109. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+70.   & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 90. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 110. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+71.  & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 91. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 111. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+72.   & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 92. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 112. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+73.  & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 93. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 113. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+ 74. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 94. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 114. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+75. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 95. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 115. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+76.  & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 96. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 116. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+77.   & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 97. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 117. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+ 78.   & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 98. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 118. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+ 79.    & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 99. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 119. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+  80.    & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d} && 100. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  && 120. & \mycirc{a} \mycirc{b} \mycirc{c} \mycirc{d}  \\ 
+\cline{1-2}\cline{4-5}\cline{7-8}
+\end{tabular} 
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                  Document Appendix                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newcounter{savedpagenum}
+%\setcounter{savedpagenum}{\value{page}}
+%%%% Cover Page Text Start
+%An example appendix showing how to insert a pdf file into the
+%thesis.
+%%%% Cover Page Text End
+%\clearpage
+%\setcounter{page}{100}% Large number to stop the clash of page numbers
+%\includepaper[pages=-]{inserted.pdf}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

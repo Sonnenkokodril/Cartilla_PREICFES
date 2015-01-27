@@ -1,0 +1,23 @@
+\begin{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\item[P. \ref{vic-5}] Lo primero que se debe realizar es unificar las unidades de tiempo y tomar la más pequeña que en este caso es el segundo.
+5/3 de minuto (1 minuto es igual a 60 segundos) = $\frac{5}{3	}x60=100$ segundos.
+
+4 minutos y 15 segundos = 60 x 4 = 240 + 15 = 255 segundos.
+ 1/12 de hora (1 Hora es igual a 3600 segundos) $\frac{1}{12}x3600=300$ segundos.
+3 y 3/4 de minutos (3 minutos = 180 segundos y 3/4 de minuto = 3/4x60 = 45 segundos)  total 225 segundos
+
+Entonces para una responder una pregunta se demora 100 + 255 + 300 + 225 = 880 segundos.
+
+Carlos se demora por cada pregunta 880 segundos y si son 35 preguntas se multiplican estos dos valores 
+880 x 35  = 30.800 segundos.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\item[P. \ref{vic-12}] Empleando un diagrama de  Venn  representamos por $B$ el conjunto de los artistas que bailan, por  $C$  el conjunto de los artistas de cantan y por $U$ el conjunto de todos los artistas; de esta manera, en la intersección de los conjuntos $B\cap C$ irían los 12 artistas que bailan y cantan, como los artistas que bailan son 16 y 12 están en la intersección, los artistas que solo bailan serían 4; de igual forma como los artistas que cantan son 25 y 12 están en la intersección, 13 serían los artistas que solo cantan, de tal forma que 3 serían los artistas que ni cantan ni bailan para poder así completar el conjunto $U$ de los 32 artistas.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{itemize}

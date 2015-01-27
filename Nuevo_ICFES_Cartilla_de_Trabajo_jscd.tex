@@ -1,0 +1,219 @@
+\documentclass[12pt,letterpaper,twocolumn,oneside]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{fancyref}
+\usepackage[pdftex,colorlinks,letterpaper]{hyperref}
+\hypersetup{linkcolor=black,filecolor=black,
+pagecolor=black,urlcolor=black,menucolor=black}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{tikz} 
+\usepackage{caption}
+\usepackage{ragged2e}
+\usepackage{fancyvrb}
+\usepackage{layout}
+\usepackage{wrapfig}
+\usepackage{eso-pic}
+\usepackage{layout}
+\usepackage{wallpaper}
+\usepackage{anyfontsize}
+\usepackage{color}
+\usepackage{rotating}
+\usepackage{tikz}
+\usepackage{array}
+\usepackage{fancyref}
+\definecolor{light-gray}{gray}{0.1}
+
+\usepackage[Glenn]{fncychap}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+
+
+\graphicspath{ {/home/sebas/Dropbox/Personal_teaching/ICFES_Documento_Proparatorio/Documento/Figuras/}}
+
+
+\renewcommand*{\theenumi}{\thechapter.\arabic{enumi}}
+\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%   Marca de Agua %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand\BackgroundPicture{%
+   \put(0,0){%
+     \parbox[b][\paperheight]{\paperwidth}{%
+       \vfill
+       \centering
+       \begin{turn}{55}
+{\fontsize{70}{50}\selectfont {\color{gray}Personal Teaching 2015}}
+     \end{turn}      
+\par
+\vfill
+     {\fontsize{50}{30}\selectfont {\color{gray} Versión prueba JSCD}}
+     
+      % \includegraphics[width=\paperwidth, keepaspectratio]{figures/hireslogo}%
+       \vfill
+     }}}
+\AddToShipoutPicture{\BackgroundPicture}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%  Cabezote    %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\onecolumn
+\input{Capitulos/Caratula}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{Capitulos/Ficha_tec}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{Capitulos/Prefacio}
+
+\tableofcontents
+
+\twocolumn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%   Ciencias Mathematics %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{Matemáticas I}\label{chap:math1}
+\input{Capitulos/Fisica_vic}
+
+
+\chapter{Matemáticas II}\label{chap:math2}
+\input{Capitulos/Preguntas_math_yolanda}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%     Ciencias Fisica %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{F\'{i}sica I}\label{chap:phy1}
+\input{Capitulos/Fisica_dia}
+
+
+\chapter{F\'{i}sica II}\label{chap:phy2}
+\input{Capitulos/Preguntas_physics_yolanda}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%     Ciencias Sociales %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{Ciencias Sociales I}\label{chap:soc1}
+\input{Capitulos/Sociales_andresc}
+
+\chapter{Ciencias Sociales II}\label{chap:soc2}
+
+\input{Capitulos/Preguntas_ciencias_sociales_III}
+
+\chapter{Literatura}\label{chap:lit1}
+\input{Capitulos/Literatura}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%     Ciencias Quimica %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Qu\'{i}mica I}\label{chap:quim1}
+\input{Capitulos/Quimica}
+
+\chapter{Qu\'{i}mica II}\label{chap:quim2}
+\input{Capitulos/Preguntas_quimica_II}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%     Ciencias Biolog´ia %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Biolog\'{i}a}\label{chap:bio1}
+\input{Capitulos/Biologia}
+
+\let\cleardoublepage\clearpage
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% Hoja de Respuesta%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\let\cleardoublepage\clearpage
+\input{Capitulos/Tabla_respuestas}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% Hoja de Respuesta%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Respuestas a las preguntas}
+
+\section*{\nameref{chap:math1}}
+
+\input{Capitulos/HR_fisica_vic}
+\newpage
+
+\section*{\nameref{chap:math2}}
+
+\input{Capitulos/HR_math_yolanda}
+
+\section*{\nameref{chap:phy1}}
+
+\input{Capitulos/HR_fisica_dia}
+
+\section*{\nameref{chap:phy2}}
+
+\input{Capitulos/HR_physics_yolanda}
+
+\section*{\nameref{chap:soc1}}
+
+\input{Capitulos/HR_sociales_andresc}
+
+\section*{\nameref{chap:soc2}}
+
+\input{Capitulos/HR_Ciencias_Sociales_III}
+
+\section*{\nameref{chap:lit1}}
+
+\input{Capitulos/HR_literatura}
+
+\section*{\nameref{chap:quim1}}
+
+\input{Capitulos/HR_quimica}
+
+\section*{\nameref{chap:quim2}}
+
+\input{Capitulos/HR_Preguntas_quimica_II}
+
+\section*{\nameref{chap:bio1}}
+
+\input{Capitulos/HR_biologia}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% Respuestas Desarrolladas %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\onecolumn
+\chapter{Respuestas Desarrolladas}
+\input{Capitulos/Respuestas_desarrolladas}
+\twocolumn
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% Bibliografia %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\onecolumn
+
+\input{Capitulos/Bibliografia}
+\twocolumn
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\end{document}

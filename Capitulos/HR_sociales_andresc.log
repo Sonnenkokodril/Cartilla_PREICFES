@@ -1,0 +1,650 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.3.3)  13 AUG 2014 22:28
+entering extended mode
+ %&-line parsing enabled.
+**HR_sociales_andresc.tex
+(./HR_sociales_andresc.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \noindent
+              \ref{chap:pr-1}. C\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<write> ...Reference `chap:pr-1' on page \thepage 
+                                                  \space undefined\on@line .
+l.2 \noindent \ref{chap:pr-1}
+                             . C\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-1' on page  undefined on input line 2.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ...Reference `chap:pr-2' on page \thepage 
+                                                  \space undefined\on@line .
+l.3 \ref{chap:pr-2}
+                   . D\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-2' on page  undefined on input line 3.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+<write> ...Reference `chap:pr-3' on page \thepage 
+                                                  \space undefined\on@line .
+l.4 \ref{chap:pr-3}
+                   . Es un ‚Äúdescubrimiento‚Äù para Europa, mas no un descu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-3' on page  undefined on input line 4.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ‚ in font nullfont!
+Missing character: There is no Ä in font nullfont!
+Missing character: There is no ú in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no ‚ in font nullfont!
+Missing character: There is no Ä in font nullfont!
+Missing character: There is no ù in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+<write> ...Reference `chap:pr-4' on page \thepage 
+                                                  \space undefined\on@line .
+l.5 \ref{chap:pr-4}
+                   . C\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-4' on page  undefined on input line 5.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ...Reference `chap:pr-5' on page \thepage 
+                                                  \space undefined\on@line .
+l.6 \ref{chap:pr-5}
+                   . B \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-5' on page  undefined on input line 6.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...Reference `chap:pr-6' on page \thepage 
+                                                  \space undefined\on@line .
+l.7 \ref{chap:pr-6}
+                   . C\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-6' on page  undefined on input line 7.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ...Reference `chap:pr-7' on page \thepage 
+                                                  \space undefined\on@line .
+l.8 \ref{chap:pr-7}
+                   . B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-7' on page  undefined on input line 8.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...Reference `chap:pr-8' on page \thepage 
+                                                  \space undefined\on@line .
+l.9 \ref{chap:pr-8}
+                   . B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-8' on page  undefined on input line 9.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...Reference `chap:pr-9' on page \thepage 
+                                                  \space undefined\on@line .
+l.10 \ref{chap:pr-9}
+                    . A \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-9' on page  undefined on input line 10.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-10' on page \thepage 
+                                                  \space undefined\on@line .
+l.11 \ref{chap:pr-10}
+                     . B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-10' on page  undefined on input line 11.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-11' on page \thepage 
+                                                  \space undefined\on@line .
+l.12 \ref{chap:pr-11}
+                     . Burgues√≠a y proletariado.\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-11' on page  undefined on input line 12.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ≠ in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-12' on page \thepage 
+                                                  \space undefined\on@line .
+l.13 \ref{chap:pr-12}
+                     . Reestructuraci√≥n.\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-12' on page  undefined on input line 13.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ≥ in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-13' on page \thepage 
+                                                  \space undefined\on@line .
+l.14 \ref{chap:pr-13}
+                     . B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-13' on page  undefined on input line 14.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-14' on page \thepage 
+                                                  \space undefined\on@line .
+l.15 \ref{chap:pr-14}
+                     . D\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-14' on page  undefined on input line 15.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-15' on page \thepage 
+                                                  \space undefined\on@line .
+l.16 \ref{chap:pr-15}
+                     . S√≠, porque el reglamento genera discriminaci√≥n.\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-15' on page  undefined on input line 16.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ≠ in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ≥ in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-16' on page \thepage 
+                                                  \space undefined\on@line .
+l.17 \ref{chap:pr-16}
+                     . C\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-16' on page  undefined on input line 17.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-17' on page \thepage 
+                                                  \space undefined\on@line .
+l.18 \ref{chap:pr-17}
+                     . B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-17' on page  undefined on input line 18.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-18' on page \thepage 
+                                                  \space undefined\on@line .
+l.19 \ref{chap:pr-18}
+                     . C\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-18' on page  undefined on input line 19.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-19' on page \thepage 
+                                                  \space undefined\on@line .
+l.20 \ref{chap:pr-19}
+                     . D\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-19' on page  undefined on input line 20.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-20' on page \thepage 
+                                                  \space undefined\on@line .
+l.21 \ref{chap:pr-20}
+                     . C\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-20' on page  undefined on input line 21.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-21' on page \thepage 
+                                                  \space undefined\on@line .
+l.22 \ref{chap:pr-21}
+                     . C \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-21' on page  undefined on input line 22.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-22' on page \thepage 
+                                                  \space undefined\on@line .
+l.23 \ref{chap:pr-22}
+                     . B\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-22' on page  undefined on input line 23.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-23' on page \thepage 
+                                                  \space undefined\on@line .
+l.24 \ref{chap:pr-23}
+                     . Quienes pueden v√°lidamente sufragar en determinado c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-23' on page  undefined on input line 24.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no Q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ° in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ° in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-24' on page \thepage 
+                                                  \space undefined\on@line .
+l.25 \ref{chap:pr-24}
+                     . B \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-24' on page  undefined on input line 25.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+! Undefined control sequence.
+<write> ...eference `chap:pr-25' on page \thepage 
+                                                  \space undefined\on@line .
+l.26 \ref{chap:pr-25}
+                     . A \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chap:pr-25' on page  undefined on input line 26.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+)
+! Emergency stop.
+<*> HR_sociales_andresc.tex
+                           
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 33 strings out of 495061
+ 497 string characters out of 1182622
+ 46108 words of memory out of 3000000
+ 3309 multiletter control sequences out of 15000+50000
+ 3948 words of font info for 15 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 19i,2n,19p,137b,89s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
