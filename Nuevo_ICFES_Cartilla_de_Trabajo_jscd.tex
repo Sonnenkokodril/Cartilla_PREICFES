@@ -1,76 +1,89 @@
-\documentclass[12pt,letterpaper,twocolumn,oneside]{report}
-\usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{makeidx}
-\usepackage{fancyref}
-\usepackage[pdftex,colorlinks,letterpaper]{hyperref}
-\hypersetup{linkcolor=black,filecolor=black,
-pagecolor=black,urlcolor=black,menucolor=black}
-\usepackage{graphicx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  My documentation report
+%  Objetive: Explain what I did and how, so someone can continue with the investigation
+%
+% Important note:
+% Chapter heading images should have a 2:1 width:height ratio,
+% e.g. 920px width and 460px height.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,fleqn]{book} % Default font size and left-justified equations
+
+%\usepackage[top=3cm,bottom=3cm,left=3.2cm,right=3.2cm,headsep=10pt,letterpaper]{geometry} % Page margins
+\usepackage[left=2cm,right=2cm, top=2cm,bottom=2cm,headsep=12pt,letterpaper]{geometry} % Page margins
+
+
+\usepackage{xcolor} % Required for specifying colors by name
+\definecolor{ocre}{RGB}{52,177,201} % Define the orange color used for highlighting throughout the book
+
+% Font Settings
+\usepackage{avant} % Use the Avantgarde font for headings
+%\usepackage{times} % Use the Times font for headings
+\usepackage{mathptmx} % Use the Adobe Times Roman as the default text font together with math symbols from the Sym­bol, Chancery and Com­puter Modern fonts
+
 \usepackage{enumerate}
 \usepackage{multicol}
 \usepackage{multirow}
 \usepackage{caption}
-\usepackage{tikz} 
-\usepackage{caption}
-\usepackage{ragged2e}
-\usepackage{fancyvrb}
-\usepackage{layout}
-\usepackage{wrapfig}
-\usepackage{eso-pic}
-\usepackage{layout}
-\usepackage{wallpaper}
-\usepackage{anyfontsize}
-\usepackage{color}
-\usepackage{rotating}
-\usepackage{tikz}
-\usepackage{array}
-\usepackage{fancyref}
-\definecolor{light-gray}{gray}{0.1}
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage[utf8]{inputenc} % Required for including letters with accents
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 
-\usepackage[Glenn]{fncychap}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+% Bibliography
+%\usepackage[style=alphabetic,sorting=nyt,sortcites=true,autopunct=true,babel=hyphen,hyperref=true,abbreviate=false,backref=true,backend=biber]{biblatex}
+%\addbibresource{bibliography.bib} % BibTeX bibliography file
+%\defbibheading{bibempty}{}
+
+\input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
+
 \begin{document}
 
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
 
-\graphicspath{ {/home/sebas/Dropbox/Personal_teaching/ICFES_Documento_Proparatorio/Documento/Figuras/}}
+\newcommand{\institutionauthor}{Personal Teaching}
+\begingroup
+\thispagestyle{empty}
+\AddToShipoutPicture*{\put(0,0){\includegraphics[scale=1.25]{esahubble}}} % Image background
+\centering
+\vspace*{5.8cm}
+\par\normalfont\fontsize{35}{35}\sffamily\selectfont
+\textbf{Cartilla Pre ICFES}\\
+\vspace*{0.5cm}
+{\Huge Personal Teaching}\par % Book title
+{\Huge 2015}\par % Book title
+\vspace*{1.cm}
+{\LARGE Editor J. S. Castellanos-Durán}\par
+%{\LARGE 2015}\par % Author name
+\endgroup
 
+%----------------------------------------------------------------------------------------
+%	COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
 
-\renewcommand*{\theenumi}{\thechapter.\arabic{enumi}}
-\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
+\newpage
+~\vfill
+\thispagestyle{empty}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%   Marca de Agua %%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\noindent Copyright \copyright\ 2014 Andrea Hidalgo\\ % Copyright notice
 
+\noindent \textsc{\copyright Personal Teaching}\\
 
-\newcommand\BackgroundPicture{%
-   \put(0,0){%
-     \parbox[b][\paperheight]{\paperwidth}{%
-       \vfill
-       \centering
-       \begin{turn}{55}
-{\fontsize{70}{50}\selectfont {\color{gray}Personal Teaching 2015}}
-     \end{turn}      
-\par
-\vfill
-     {\fontsize{50}{30}\selectfont {\color{gray} Versión prueba JSCD}}
-     
-      % \includegraphics[width=\paperwidth, keepaspectratio]{figures/hireslogo}%
-       \vfill
-     }}}
-\AddToShipoutPicture{\BackgroundPicture}
+\noindent \textit{Marzo 2015} % Printing/edition date
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%  Cabezote    %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\onecolumn
-\input{Capitulos/Caratula}
+%\input{Capitulos/Caratula}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -80,18 +93,45 @@ pagecolor=black,urlcolor=black,menucolor=black}
 
 \input{Capitulos/Prefacio}
 
-\tableofcontents
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\chapterimage{head1.png} % Table of contents heading image
+
+\pagestyle{empty} % No headers
+
+\tableofcontents % Print the table of contents itself
+
+%\cleardoublepage % Forces the first chapter to start on an odd page so it's on the right
+
+\pagestyle{fancy} % Print headers again
+
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 1
+%----------------------------------------------------------------------------------------
+
+\chapterimage{blanck.jpg} % Chapter heading image
+
+\chapter{Introducción}
+
 
 \twocolumn
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%   Ciencias Mathematics %%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 
+\chapterimage{math3v.jpg} % Table of contents heading image
 
 \chapter{Matemáticas I}\label{chap:math1}
 \input{Capitulos/Fisica_vic}
+\newpage
 
+\chapterimage{math2v.jpg} % Table of contents heading image
 
 \chapter{Matemáticas II}\label{chap:math2}
 \input{Capitulos/Preguntas_math_yolanda}
@@ -100,10 +140,12 @@ pagecolor=black,urlcolor=black,menucolor=black}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%     Ciencias Fisica %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapterimage{physics2.jpg} % Table of contents heading image
 
 \chapter{F\'{i}sica I}\label{chap:phy1}
 \input{Capitulos/Fisica_dia}
 
+\chapterimage{physics3v.jpg} % Table of contents heading image
 
 \chapter{F\'{i}sica II}\label{chap:phy2}
 \input{Capitulos/Preguntas_physics_yolanda}
@@ -112,13 +154,20 @@ pagecolor=black,urlcolor=black,menucolor=black}
 %%%%%%%%%%%%     Ciencias Sociales %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\chapterimage{sociales1v.jpg} % Table of contents heading image
 
 \chapter{Ciencias Sociales I}\label{chap:soc1}
 \input{Capitulos/Sociales_andresc}
 
+
+\chapterimage{sociales2v.png} % Table of contents heading image
+
 \chapter{Ciencias Sociales II}\label{chap:soc2}
 
 \input{Capitulos/Preguntas_ciencias_sociales_III}
+
+
+\chapterimage{sociales3.jpg} % Table of contents heading image
 
 \chapter{Literatura}\label{chap:lit1}
 \input{Capitulos/Literatura}
@@ -128,8 +177,12 @@ pagecolor=black,urlcolor=black,menucolor=black}
 %%%%%%%%%%%%     Ciencias Quimica %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\chapterimage{quim3v.jpg} % Table of contents heading image
+
 \chapter{Qu\'{i}mica I}\label{chap:quim1}
 \input{Capitulos/Quimica}
+
+\chapterimage{quim2.jpg} % Table of contents heading image
 
 \chapter{Qu\'{i}mica II}\label{chap:quim2}
 \input{Capitulos/Preguntas_quimica_II}
@@ -137,6 +190,7 @@ pagecolor=black,urlcolor=black,menucolor=black}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%     Ciencias Biolog´ia %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapterimage{bio1.jpg} % Table of contents heading image
 
 \chapter{Biolog\'{i}a}\label{chap:bio1}
 \input{Capitulos/Biologia}
@@ -209,10 +263,12 @@ pagecolor=black,urlcolor=black,menucolor=black}
 %%%%%%%%%%%% Bibliografia %%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \onecolumn
-
+\chapterimage{biblio.jpg}
 \input{Capitulos/Bibliografia}
 \twocolumn
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 
 
